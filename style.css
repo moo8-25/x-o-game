@@ -1,0 +1,87 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #1B1B1B;
+    font-family: 'Shantell Sans', cursive;
+}
+
+button {
+    font-family: 'Shantell Sans', cursive;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+
+.main .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .container .content .instruction {
+    width: 60%;
+    background-color: #c6c6c636;
+    border-radius: 30px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .container .content .instruction h2 {
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+}
+
+.main .container .content .table {
+    background-color: #F0DB4F;
+    width: 50%;
+    border-radius: 15px;
+    aspect-ratio: 1;
+    padding: 30px;
+    border: 7px solid #3f3f3f;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.main .container .content .table .squares {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    width: 100%;
+}
+
+.main .container .content .table .squares .square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.main .container .content .table .squares .square:hover {
+    background-color: #c6b439;
+}
+
+.main .container .content button {
+    font-size: 25px;
+    padding: 7px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    background: rgb(84 60 172);
+    cursor: pointer;
+}
+
+.main .container .content button:hover {
+    background: rgb(137, 105, 240);
+}
